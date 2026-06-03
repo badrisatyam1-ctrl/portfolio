@@ -11,12 +11,7 @@ export default function DashboardOverview() {
     <PageTransition>
       <div className="mx-auto max-w-5xl p-4 sm:p-6 lg:p-8">
         {/* Header Block */}
-        <motion.header 
-          initial={{ opacity: 0, y: -15 }}
-          animate={{ opacity: 1, y: 0 }}
-          transition={{ delay: 0.3, duration: 0.5, ease: "easeOut" }}
-          className="mb-8 border-b border-border/50 pb-6"
-        >
+        <header className="mb-8 border-b border-border/50 pb-6">
           <div className="flex flex-col gap-2 sm:flex-row sm:items-end sm:justify-between">
             <div>
               <p className="font-mono text-xs text-accent">
@@ -38,17 +33,17 @@ export default function DashboardOverview() {
               </div>
             </div>
           </div>
-        </motion.header>
+        </header>
 
         {/* Dashboard Grid */}
         <div className="grid gap-6 sm:grid-cols-2 lg:grid-cols-5">
           
           {/* Identity Panel (60%) */}
           <motion.section 
-            initial={{ opacity: 0, y: 20 }}
+            initial={{ opacity: 0, y: 10 }}
             animate={{ opacity: 1, y: 0 }}
-            whileHover={{ y: -4, scale: 1.01 }}
-            transition={{ delay: 0.4, duration: 0.4, ease: "easeOut" }}
+            whileHover={{ y: -4 }}
+            transition={{ delay: 0.1, duration: 0.3, ease: "easeOut" }}
             className="card-panel col-span-1 flex flex-col p-6 sm:col-span-2 lg:col-span-3"
           >
             <div className="mb-4 flex items-center gap-2 border-b border-border/50 pb-2">
@@ -81,10 +76,10 @@ export default function DashboardOverview() {
 
           {/* Core Modules Panel (20%) */}
           <motion.section
-            initial={{ opacity: 0, y: 20 }}
+            initial={{ opacity: 0, y: 10 }}
             animate={{ opacity: 1, y: 0 }}
-            whileHover={{ y: -4, scale: 1.01 }}
-            transition={{ delay: 0.5, duration: 0.4, ease: "easeOut" }}
+            whileHover={{ y: -4 }}
+            transition={{ delay: 0.2, duration: 0.3, ease: "easeOut" }}
             className="card-panel col-span-1 flex flex-col p-6 lg:col-span-1"
           >
             <div className="mb-4 flex items-center gap-2 border-b border-border/50 pb-2">
@@ -92,27 +87,21 @@ export default function DashboardOverview() {
               <h2 className="font-mono text-xs uppercase text-faint">Core Modules</h2>
             </div>
             <div className="flex flex-col gap-2">
-              {FOCUS_AREAS.map((area, idx) => (
-                <motion.div 
-                  key={area} 
-                  initial={{ opacity: 0, x: -10 }}
-                  animate={{ opacity: 1, x: 0 }}
-                  transition={{ delay: 0.7 + (idx * 0.1), duration: 0.3 }}
-                  className="flex items-center justify-between rounded bg-surface-2 px-3 py-2"
-                >
+              {FOCUS_AREAS.map(area => (
+                <div key={area} className="flex items-center justify-between rounded bg-surface-2 px-3 py-2">
                   <span className="font-mono text-sm text-text">{area}</span>
                   <span className="h-2 w-2 rounded-full bg-accent opacity-50" />
-                </motion.div>
+                </div>
               ))}
             </div>
           </motion.section>
 
           {/* Quick Access Panel (20%) */}
           <motion.section
-            initial={{ opacity: 0, y: 20 }}
+            initial={{ opacity: 0, y: 10 }}
             animate={{ opacity: 1, y: 0 }}
-            whileHover={{ y: -4, scale: 1.01 }}
-            transition={{ delay: 0.6, duration: 0.4, ease: "easeOut" }}
+            whileHover={{ y: -4 }}
+            transition={{ delay: 0.3, duration: 0.3, ease: "easeOut" }}
             className="card-panel col-span-1 flex flex-col p-6 lg:col-span-1"
           >
             <div className="mb-4 flex items-center gap-2 border-b border-border/50 pb-2">

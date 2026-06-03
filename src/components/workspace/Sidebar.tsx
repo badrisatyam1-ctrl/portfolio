@@ -87,7 +87,7 @@ export default function Sidebar() {
               <span className={cn("relative inline-flex h-2 w-2 rounded-full", isOnline ? "bg-accent" : "bg-red-500")}></span>
             </span>
             <span className={cn("font-mono text-xs uppercase", isOnline ? "text-accent" : "text-red-500")}>
-              Sys: {isOnline ? "Online" : "Offline"}
+              Conn: {isOnline ? "Online" : "Offline"}
             </span>
           </div>
           <p className="mt-1.5 font-mono text-xs text-faint">
