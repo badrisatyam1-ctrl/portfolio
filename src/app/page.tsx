@@ -27,10 +27,6 @@ export default function DashboardOverview() {
                 <p className="font-mono text-xs text-faint">LOCATION</p>
                 <p className="font-mono text-sm text-text">{PERSONAL.location}</p>
               </div>
-              <div className="text-right">
-                <p className="font-mono text-xs text-faint">STATUS</p>
-                <p className="font-mono text-sm text-accent">ONLINE</p>
-              </div>
             </div>
           </div>
         </header>
