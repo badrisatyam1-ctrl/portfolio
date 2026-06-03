@@ -25,9 +25,6 @@ export default function NotesList({ notes }: { notes: NoteMetadata[] }) {
                 <span className="flex items-center gap-1 font-mono text-[10px] uppercase">
                   <Calendar size={12} /> {new Date(note.date).toLocaleDateString("en-US", { month: "short", day: "numeric", year: "numeric" })}
                 </span>
-                <span className="flex items-center gap-1 font-mono text-[10px] uppercase">
-                  <Clock size={12} /> {note.readingTime}
-                </span>
               </div>
               <h2 className="text-lg font-semibold text-text group-hover:text-accent transition-colors">
                 {note.title}

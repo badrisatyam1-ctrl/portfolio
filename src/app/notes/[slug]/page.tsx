@@ -55,9 +55,6 @@ export default async function NotePage({
                 year: "numeric",
               })}
             </span>
-            <span className="flex items-center gap-1 font-mono text-[11px] uppercase">
-              <Clock size={14} /> {note.readingTime}
-            </span>
           </div>
         </header>
 

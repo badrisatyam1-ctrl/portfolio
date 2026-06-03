@@ -1,6 +1,6 @@
 ---
 title: "Understanding Convolution in CNNs for Defect Analysis"
-date: "2026-05-15"
+date: "2024-06-04"
 excerpt: "A deep dive into how convolutional layers extract spatial features from images, specifically focusing on semiconductor wafer defect classification."
 tags: ["Deep Learning", "Computer Vision"]
 readingTime: "8 min"
