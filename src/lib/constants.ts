@@ -161,8 +161,8 @@ export const PROJECTS: Project[] = [
   {
     id: "drone-system",
     index: "03",
-    title: "Drone System",
-    subtitle: "Autonomous Aerial Systems Experiment",
+    title: "Drone System (Developing Phase)",
+    subtitle: "Autonomous Aerial Systems (In Development)",
     description:
       "An experimental autonomous drone platform exploring flight control, sensor integration, and embedded intelligence for aerial systems. Built from the ground up to understand UAV fundamentals and autonomous navigation.",
     technologies: [
