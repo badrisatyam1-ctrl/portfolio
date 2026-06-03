@@ -1,4 +1,5 @@
 @import "tailwindcss";
+@plugin "@tailwindcss/typography";
 
 /* =============================================
    DESIGN SYSTEM — Badri Vishal Pandey

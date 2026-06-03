@@ -26,6 +26,7 @@ const jetbrainsMono = JetBrains_Mono({
 });
 
 export const metadata: Metadata = {
+  metadataBase: new URL("https://badrivishalpandey.me"),
   title: {
     default: "Badri Vishal Pandey — AI Engineer · Embedded Systems Builder",
     template: "%s — Badri Vishal Pandey",
@@ -48,6 +49,16 @@ export const metadata: Metadata = {
     title: "Badri Vishal Pandey — AI Engineer · Embedded Systems Builder",
     description:
       "Turning logic into intelligent systems and bold ideas into shipped products.",
+    url: "https://badrivishalpandey.me",
+    siteName: "Badri Vishal Pandey Portfolio",
+    images: [
+      {
+        url: "/og-image.jpg",
+        width: 1200,
+        height: 630,
+        alt: "Badri Vishal Pandey Portfolio Dashboard",
+      },
+    ],
     type: "website",
     locale: "en_US",
   },
@@ -56,6 +67,7 @@ export const metadata: Metadata = {
     title: "Badri Vishal Pandey — AI Engineer · Embedded Systems Builder",
     description:
       "Turning logic into intelligent systems and bold ideas into shipped products.",
+    images: ["/og-image.jpg"],
   },
   robots: {
     index: true,

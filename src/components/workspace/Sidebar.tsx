@@ -78,6 +78,18 @@ export default function Sidebar() {
         })}
       </nav>
 
+      {/* Resume Download */}
+      <div className="mb-6 hidden w-full sm:block">
+        <a 
+          href="/resume.pdf" 
+          download 
+          className="group flex w-full items-center justify-between rounded-lg border border-accent/20 bg-accent/5 px-4 py-2.5 transition-all hover:bg-accent/10 hover:shadow-[0_0_15px_rgba(250,204,21,0.15)]"
+        >
+          <span className="font-mono text-xs font-semibold text-accent">DL_RESUME.pdf</span>
+          <span className="font-mono text-xs text-accent transition-transform group-hover:translate-y-0.5">↓</span>
+        </a>
+      </div>
+
       {/* Bottom Status Panel */}
       <div className="mt-auto hidden sm:block">
         <div className="card-panel p-4">
