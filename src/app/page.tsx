@@ -14,7 +14,7 @@ export default function DashboardOverview() {
         <motion.header 
           initial={{ opacity: 0, y: -15 }}
           animate={{ opacity: 1, y: 0 }}
-          transition={{ duration: 0.4, ease: "easeOut" }}
+          transition={{ delay: 0.3, duration: 0.5, ease: "easeOut" }}
           className="mb-8 border-b border-border/50 pb-6"
         >
           <div className="flex flex-col gap-2 sm:flex-row sm:items-end sm:justify-between">
@@ -48,7 +48,7 @@ export default function DashboardOverview() {
             initial={{ opacity: 0, y: 20 }}
             animate={{ opacity: 1, y: 0 }}
             whileHover={{ y: -4, scale: 1.01 }}
-            transition={{ delay: 0.1, duration: 0.3, ease: "easeOut" }}
+            transition={{ delay: 0.4, duration: 0.4, ease: "easeOut" }}
             className="card-panel col-span-1 flex flex-col p-6 sm:col-span-2 lg:col-span-3"
           >
             <div className="mb-4 flex items-center gap-2 border-b border-border/50 pb-2">
@@ -84,7 +84,7 @@ export default function DashboardOverview() {
             initial={{ opacity: 0, y: 20 }}
             animate={{ opacity: 1, y: 0 }}
             whileHover={{ y: -4, scale: 1.01 }}
-            transition={{ delay: 0.2, duration: 0.3, ease: "easeOut" }}
+            transition={{ delay: 0.5, duration: 0.4, ease: "easeOut" }}
             className="card-panel col-span-1 flex flex-col p-6 lg:col-span-1"
           >
             <div className="mb-4 flex items-center gap-2 border-b border-border/50 pb-2">
@@ -97,7 +97,7 @@ export default function DashboardOverview() {
                   key={area} 
                   initial={{ opacity: 0, x: -10 }}
                   animate={{ opacity: 1, x: 0 }}
-                  transition={{ delay: 0.3 + (idx * 0.1), duration: 0.3 }}
+                  transition={{ delay: 0.7 + (idx * 0.1), duration: 0.3 }}
                   className="flex items-center justify-between rounded bg-surface-2 px-3 py-2"
                 >
                   <span className="font-mono text-sm text-text">{area}</span>
@@ -112,7 +112,7 @@ export default function DashboardOverview() {
             initial={{ opacity: 0, y: 20 }}
             animate={{ opacity: 1, y: 0 }}
             whileHover={{ y: -4, scale: 1.01 }}
-            transition={{ delay: 0.3, duration: 0.3, ease: "easeOut" }}
+            transition={{ delay: 0.6, duration: 0.4, ease: "easeOut" }}
             className="card-panel col-span-1 flex flex-col p-6 lg:col-span-1"
           >
             <div className="mb-4 flex items-center gap-2 border-b border-border/50 pb-2">
