@@ -5,6 +5,7 @@ import { JetBrains_Mono } from "next/font/google";
 import "./globals.css";
 import Sidebar from "@/components/workspace/Sidebar";
 import Background from "@/components/layout/Background";
+import { Analytics } from "@vercel/analytics/next";
 
 const geist = Geist({
   subsets: ["latin"],
@@ -79,6 +80,7 @@ export default function RootLayout({
             {children}
           </main>
         </div>
+        <Analytics />
       </body>
     </html>
   );
