@@ -129,6 +129,7 @@ export const PROJECTS: Project[] = [
       "GSM Module",
       "GPS",
     ],
+    githubUrl: "https://github.com/badrisatyam1-ctrl/Smart-Helmet-System",
     sections: [
       {
         title: "Sensors",
