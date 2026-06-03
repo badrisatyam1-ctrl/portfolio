@@ -11,8 +11,8 @@
   --color-surface-2: #141414;
   --color-border: #1A1A1A;
   --color-border-hover: #2A2A2A;
-  --color-accent: #00E5FF;
-  --color-accent-deep: #00B8D4;
+  --color-accent: #FACC15;
+  --color-accent-deep: #EAB308;
   --color-text: #F5F5F5;
   --color-muted: #A1A1AA;
   --color-faint: #52525B;
@@ -42,7 +42,7 @@ body {
 }
 
 ::selection {
-  background-color: rgba(0, 229, 255, 0.2);
+  background-color: rgba(250, 204, 21, 0.2);
   color: var(--color-text);
 }
 
@@ -174,7 +174,7 @@ body {
               inset -1px 0 0 0 rgba(255, 255, 255, 0.02),
               /* Atmospheric shadow */
               0 20px 40px -10px rgba(0, 0, 0, 0.5),
-              0 0 20px 0 rgba(0, 229, 255, 0.03);
+              0 0 20px 0 rgba(250, 204, 21, 0.03);
   position: relative;
   overflow: hidden;
   transition: all 0.3s ease;
@@ -186,13 +186,13 @@ body {
               inset 1px 0 0 0 rgba(255, 255, 255, 0.03),
               inset -1px 0 0 0 rgba(255, 255, 255, 0.03),
               0 25px 50px -12px rgba(0, 0, 0, 0.6),
-              0 0 30px 0 rgba(0, 229, 255, 0.05);
+              0 0 30px 0 rgba(250, 204, 21, 0.05);
 }
 
 .glow-amber {
-  text-shadow: 0 0 20px rgba(0, 229, 255, 0.3);
+  text-shadow: 0 0 20px rgba(250, 204, 21, 0.3);
 }
 
 .glow-amber-soft {
-  text-shadow: 0 0 40px rgba(0, 229, 255, 0.15);
+  text-shadow: 0 0 40px rgba(250, 204, 21, 0.15);
 }

@@ -17,7 +17,7 @@ export default function Background() {
         className="absolute -right-[20%] -top-[20%] h-[80%] w-[80%]"
         style={{
           background:
-            "radial-gradient(ellipse at center, rgba(0, 229, 255, 0.08), transparent 70%)",
+            "radial-gradient(ellipse at center, rgba(250, 204, 21, 0.08), transparent 70%)",
         }}
       />
 
@@ -26,7 +26,7 @@ export default function Background() {
         className="absolute -bottom-[30%] -left-[20%] h-[60%] w-[60%]"
         style={{
           background:
-            "radial-gradient(ellipse at center, rgba(0, 184, 212, 0.04), transparent 70%)",
+            "radial-gradient(ellipse at center, rgba(234, 179, 8, 0.04), transparent 70%)",
         }}
       />
 
