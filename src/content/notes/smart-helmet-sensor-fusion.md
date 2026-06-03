@@ -1,6 +1,6 @@
 ---
 title: "Sensor Fusion Algorithms for Impact Detection"
-date: "2024-05-10"
+date: "2026-05-10"
 excerpt: "How I combined accelerometer and gyroscope data on an ESP32 to accurately differentiate between a rough motorcycle ride and an actual crash."
 tags: ["Embedded", "IoT", "Sensors"]
 readingTime: "6 min"
